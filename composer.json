@@ -1,0 +1,30 @@
+{
+    "name": "magenius/module-admin-message-updater",
+    "description": "Module for requesting update of admin messages via ajax request",
+    "require": {
+        "magento/framework": "102.0.*||103.0.*"
+    },
+    "type": "magento2-module",
+    "keywords": [
+        "magento",
+        "magenius",
+        "admin",
+        "message",
+        "updater"
+    ],
+    "license": [
+        "BSD-3-Clause"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Magenius\\AdminMessageUpdater\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "support": {
+        "email": "support@magenius.team"
+    },
+    "version": "1.0.0"
+}

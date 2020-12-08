@@ -1,0 +1,11 @@
+<?php
+/*
+ * Copyright © Denis Kopylov (dba. Magenius.Team) https://github.com/magenius-team
+ * See LICENSE distributed with the module for license details.
+ */
+
+/** @var \Magento\Backend\Block\Template $block */
+?>
+<script>
+    window.adminMessagesUrl = "<?= /* @noEscape */ $block->getUrl('magenius/messages/getmessages') ?>";
+</script>
