@@ -1,7 +1,7 @@
 <?php
 /*
- * Copyright © Denis Kopylov (dba. Magenius.Team) https://github.com/magenius-team
- * See LICENSE distributed with the module for license details.
+ * Copyright © Denis Kopylov (dba. Magenius.Team). All rights reserved.
+ * See LICENSE.txt for license details.
  */
 
 use Magento\Framework\Component\ComponentRegistrar;

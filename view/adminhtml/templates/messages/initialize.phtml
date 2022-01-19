@@ -1,0 +1,15 @@
+<?php
+/*
+ * Copyright © Denis Kopylov (dba. Magenius.Team). All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+
+/** @var \Magento\Backend\Block\Template $block */
+?>
+<script>
+    require([
+        'Magenius_AdminMessageUpdater/js/model/messages'
+    ], function (messageUpdater) {
+        messageUpdater.init();
+    })
+</script>

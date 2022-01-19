@@ -1,3 +1,7 @@
+1.1.0
+============
+- Implemented automatic render of messages added by Magento core `MessageManager` for all ajax requests
+
 1.0.1
 ============
 - Fixed template path
